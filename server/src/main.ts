@@ -7,6 +7,7 @@ async function bootstrap() {
 
   let corsOptions;
   if (process.env.NODE_ENV === 'production') {
+    // Change this to your production server url if needed
     corsOptions = {
       origin: [
         'http://localhost:3000',
